@@ -1,18 +1,21 @@
-[{
-	firstNames : "William",
-	surname: "Smith",
-	email: "William@gmail.com",
-	ref: "REF101",
-	address:{}
-},
-{
-	firstNames : "Dean",
-	surname: "Fisher",
-	email: "Ddan@gmail.com",
-	ref: "REF102",
-	address:{}
-}]
+db.respondent.insert(
+	[{
+		firstNames : "William",
+		surname: "Smith",
+		email: "William@gmail.com",
+		ref: "REF101",
+		address:{}
+	},
+	{
+		firstNames : "Dean",
+		surname: "Fisher",
+		email: "Ddan@gmail.com",
+		ref: "REF102",
+		address:{}
+	}]
+);
 
+db.poll.insert(
 [{
 	pollId : 101,
 	title : "Local council's review",
@@ -58,69 +61,72 @@
 		        }
 		]
 }]
+);
 
+db.response.insert(
 [{
 	pollId:101,
 	responses : [
 		{
 			questionId: 11,
 			response : "YES",
-			correspondentRef:REF101	
+			correspondentRef:"REF101"	
 		},
 		{
 			questionId: 12,
 			response : "NO",
-			correspondentRef:REF101	
+			correspondentRef:"REF101"	
 		},
 		{
 			questionId: 13,
 			response : "YES",
-			correspondentRef:REF101	
+			correspondentRef:"REF101"	
 		},
 		{
 			questionId: 14,
 			response : "YES",
-			correspondentRef:REF101	
+			correspondentRef:"REF101"	
 		},
 		{
 			questionId: 15,
 			response : "YES",
-			correspondentRef:REF101	
+			correspondentRef:"REF101"	
 		},
 		{
 			questionId: 16,
 			response : "YES",
-			correspondentRef:REF101	
+			correspondentRef:"REF101"	
 		},
 		{
 			questionId: 11,
 			response : "YES",
-			correspondentRef:REF102	
+			correspondentRef:"REF102"	
 		},
 		{
 			questionId: 12,
 			response : "YES",
-			correspondentRef:REF102	
+			correspondentRef:"REF102"	
 		},
 		{
 			questionId: 13,
 			response : "YES",
-			correspondentRef:REF102	
+			correspondentRef:"REF102"	
 		},
 		{
 			questionId: 14,
 			response : "YES",
-			correspondentRef:REF102	
+			correspondentRef:"REF102"	
 		},
 		{
 			questionId: 15,
 			response : "NO",
-			correspondentRef:REF102	
+			correspondentRef:"REF102"	
 		},
 		{
 			questionId: 16,
 			response : "NO",
-			correspondentRef:REF102	
+			correspondentRef:"REF102"	
 		}
 	]
 }]
+);
