@@ -26,37 +26,37 @@ db.poll.insert(
 		        {
 	        		questionId: 11,
 	                question : "Are you interested in your local Council’s decisions?",
-	                options : ["YES", "NO"],
+	                options : ["Yes", "No"],
 	                format: "YES_NO"
 		        },
 		        {
 	        		questionId: 12,
 	                question : "Are you satisfied with your local Council’s efforts with respect to waste management and sanitation?",
-	                options : ["YES", "NO"],
+	                options : ["Yes", "No"],
 	                format: "YES_NO"
 		        },
 		        {
 	        		questionId: 13,
 	                question : "Are you satisfied with your local Council’s efforts with respect to educational opportunities?",
-	                options : ["YES", "NO"],
+	                options : ["Yes", "No"],
 	                format: "YES_NO"
 		        },
 		        {
 	        		questionId: 14,
 	                question : "Are you satisfied with your local Council’s efforts with respect to public safety?",
-	                options : ["YES", "NO"],
+	                options : ["Yes", "No"],
 	                format: "YES_NO"
 		        },
 		        {
 	        		questionId: 15,
 	                question : "Are you satisfied with your local Council’s efforts with respect healthcare provision?",
-	                options : ["YES", "NO"],
+	                options : ["Yes", "No"],
 	                format: "YES_NO"
 		        },
 		        {
 	        		questionId: 16,
 	                question : "Would you like to get involved in local Council activities?",
-	                options : ["YES", "NO"],
+	                options : ["Yes", "No"],
 	                format: "YES_NO"
 		        }
 		]
@@ -69,62 +69,62 @@ db.response.insert(
 	responses : [
 		{
 			questionId: 11,
-			response : "YES",
+			response : "Yes",
 			correspondentRef:"REF101"	
 		},
 		{
 			questionId: 12,
-			response : "NO",
+			response : "No",
 			correspondentRef:"REF101"	
 		},
 		{
 			questionId: 13,
-			response : "YES",
+			response : "Yes",
 			correspondentRef:"REF101"	
 		},
 		{
 			questionId: 14,
-			response : "YES",
+			response : "Yes",
 			correspondentRef:"REF101"	
 		},
 		{
 			questionId: 15,
-			response : "YES",
+			response : "Yes",
 			correspondentRef:"REF101"	
 		},
 		{
 			questionId: 16,
-			response : "YES",
+			response : "Yes",
 			correspondentRef:"REF101"	
 		},
 		{
 			questionId: 11,
-			response : "YES",
+			response : "Yes",
 			correspondentRef:"REF102"	
 		},
 		{
 			questionId: 12,
-			response : "YES",
+			response : "Yes",
 			correspondentRef:"REF102"	
 		},
 		{
 			questionId: 13,
-			response : "YES",
+			response : "Yes",
 			correspondentRef:"REF102"	
 		},
 		{
 			questionId: 14,
-			response : "YES",
+			response : "Yes",
 			correspondentRef:"REF102"	
 		},
 		{
 			questionId: 15,
-			response : "NO",
+			response : "No",
 			correspondentRef:"REF102"	
 		},
 		{
 			questionId: 16,
-			response : "NO",
+			response : "No",
 			correspondentRef:"REF102"	
 		}
 	]
